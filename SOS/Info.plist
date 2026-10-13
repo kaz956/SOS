@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<string></string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>BrowserIcon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>BrowserIcon</string>
+				</array>
+			</dict>
+			<key>CalculatorIcon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>CalculatorIcon</string>
+				</array>
+			</dict>
+			<key>ClockIcon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>ClockIcon</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon</string>
+			</array>
+		</dict>
+	</dict>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>This app may send notifications for emergency alerts.</string>
+</dict>
+</plist>

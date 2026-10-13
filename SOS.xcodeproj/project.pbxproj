@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79474F562D670E63003D05EB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79474F552D670E63003D05EB /* WebView.swift */; };
+		79965CAB2D63465800E87822 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79965CAA2D63465800E87822 /* HomeView.swift */; };
+		79965CAE2D670B9D00E87822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79965CAD2D670B9D00E87822 /* AppDelegate.swift */; };
+		799797102D69D5E9006E662A /* ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7997970F2D69D5E9006E662A /* ringtone.mp3 */; };
+		799797122D6A4DDD006E662A /* BluetoothSOSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799797112D6A4DDD006E662A /* BluetoothSOSManager.swift */; };
+		799797142D6A4E2C006E662A /* SOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799797132D6A4E2C006E662A /* SOSView.swift */; };
+		799797342D6B8242006E662A /* CalculatorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 799797312D6B8241006E662A /* CalculatorIcon.png */; };
+		799797352D6B8242006E662A /* ClockIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 799797322D6B8242006E662A /* ClockIcon.png */; };
+		799797362D6B8242006E662A /* BrowserIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 799797332D6B8242006E662A /* BrowserIcon.png */; };
+		79E5A5772D633906003811B7 /* SOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5762D633906003811B7 /* SOSApp.swift */; };
+		79E5A5792D633906003811B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5782D633906003811B7 /* ContentView.swift */; };
+		79E5A57B2D633907003811B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E5A57A2D633907003811B7 /* Assets.xcassets */; };
+		79E5A57E2D633907003811B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E5A57D2D633907003811B7 /* Preview Assets.xcassets */; };
+		79E5A5882D633907003811B7 /* SOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5872D633907003811B7 /* SOSTests.swift */; };
+		79E5A5922D633907003811B7 /* SOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5912D633907003811B7 /* SOSUITests.swift */; };
+		79E5A5942D633907003811B7 /* SOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5932D633907003811B7 /* SOSUITestsLaunchTests.swift */; };
+		79E5A5A12D633A38003811B7 /* FakeCallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5A02D633A38003811B7 /* FakeCallManager.swift */; };
+		79E5A5A32D633ABE003811B7 /* FakeCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5A22D633ABE003811B7 /* FakeCallView.swift */; };
+		79E5A5A52D633ACF003811B7 /* FlashSOSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5A42D633ACF003811B7 /* FlashSOSManager.swift */; };
+		79E5A5A72D633BCD003811B7 /* FlashSOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5A62D633BCD003811B7 /* FlashSOSView.swift */; };
+		79E5A5A92D633C57003811B7 /* DummyScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5A5A82D633C57003811B7 /* DummyScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E5A5842D633907003811B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E5A56B2D633905003811B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E5A5722D633906003811B7;
+			remoteInfo = SOS;
+		};
+		79E5A58E2D633907003811B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E5A56B2D633905003811B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E5A5722D633906003811B7;
+			remoteInfo = SOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79474F552D670E63003D05EB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		79965CAA2D63465800E87822 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		79965CAC2D648AF700E87822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		79965CAD2D670B9D00E87822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7997970F2D69D5E9006E662A /* ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ringtone.mp3; sourceTree = "<group>"; };
+		799797112D6A4DDD006E662A /* BluetoothSOSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSOSManager.swift; sourceTree = "<group>"; };
+		799797132D6A4E2C006E662A /* SOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSView.swift; sourceTree = "<group>"; };
+		799797312D6B8241006E662A /* CalculatorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CalculatorIcon.png; path = ../../../Downloads/CalculatorIcon.png; sourceTree = "<group>"; };
+		799797322D6B8242006E662A /* ClockIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ClockIcon.png; path = ../../../Downloads/ClockIcon.png; sourceTree = "<group>"; };
+		799797332D6B8242006E662A /* BrowserIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrowserIcon.png; path = ../../../Downloads/BrowserIcon.png; sourceTree = "<group>"; };
+		79E5A5732D633906003811B7 /* SOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E5A5762D633906003811B7 /* SOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSApp.swift; sourceTree = "<group>"; };
+		79E5A5782D633906003811B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79E5A57A2D633907003811B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E5A57D2D633907003811B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79E5A5832D633907003811B7 /* SOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E5A5872D633907003811B7 /* SOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSTests.swift; sourceTree = "<group>"; };
+		79E5A58D2D633907003811B7 /* SOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E5A5912D633907003811B7 /* SOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSUITests.swift; sourceTree = "<group>"; };
+		79E5A5932D633907003811B7 /* SOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79E5A5A02D633A38003811B7 /* FakeCallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCallManager.swift; sourceTree = "<group>"; };
+		79E5A5A22D633ABE003811B7 /* FakeCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCallView.swift; sourceTree = "<group>"; };
+		79E5A5A42D633ACF003811B7 /* FlashSOSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashSOSManager.swift; sourceTree = "<group>"; };
+		79E5A5A62D633BCD003811B7 /* FlashSOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashSOSView.swift; sourceTree = "<group>"; };
+		79E5A5A82D633C57003811B7 /* DummyScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E5A5702D633906003811B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5A5802D633907003811B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5A58A2D633907003811B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7997970E2D69D5B1006E662A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7997970F2D69D5E9006E662A /* ringtone.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79E5A56A2D633905003811B7 = {
+			isa = PBXGroup;
+			children = (
+				79E5A5752D633906003811B7 /* SOS */,
+				79E5A5862D633907003811B7 /* SOSTests */,
+				79E5A5902D633907003811B7 /* SOSUITests */,
+				79E5A5742D633906003811B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E5A5742D633906003811B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E5A5732D633906003811B7 /* SOS.app */,
+				79E5A5832D633907003811B7 /* SOSTests.xctest */,
+				79E5A58D2D633907003811B7 /* SOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E5A5752D633906003811B7 /* SOS */ = {
+			isa = PBXGroup;
+			children = (
+				79965CAC2D648AF700E87822 /* Info.plist */,
+				7997970E2D69D5B1006E662A /* Resources */,
+				79E5A5A02D633A38003811B7 /* FakeCallManager.swift */,
+				79965CAA2D63465800E87822 /* HomeView.swift */,
+				79E5A5A22D633ABE003811B7 /* FakeCallView.swift */,
+				79E5A5A42D633ACF003811B7 /* FlashSOSManager.swift */,
+				79E5A5A62D633BCD003811B7 /* FlashSOSView.swift */,
+				79E5A5A82D633C57003811B7 /* DummyScreenView.swift */,
+				79474F552D670E63003D05EB /* WebView.swift */,
+				799797112D6A4DDD006E662A /* BluetoothSOSManager.swift */,
+				799797132D6A4E2C006E662A /* SOSView.swift */,
+				79E5A5762D633906003811B7 /* SOSApp.swift */,
+				79E5A5782D633906003811B7 /* ContentView.swift */,
+				79965CAD2D670B9D00E87822 /* AppDelegate.swift */,
+				799797332D6B8242006E662A /* BrowserIcon.png */,
+				799797312D6B8241006E662A /* CalculatorIcon.png */,
+				799797322D6B8242006E662A /* ClockIcon.png */,
+				79E5A57A2D633907003811B7 /* Assets.xcassets */,
+				79E5A57C2D633907003811B7 /* Preview Content */,
+			);
+			path = SOS;
+			sourceTree = "<group>";
+		};
+		79E5A57C2D633907003811B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79E5A57D2D633907003811B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79E5A5862D633907003811B7 /* SOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E5A5872D633907003811B7 /* SOSTests.swift */,
+			);
+			path = SOSTests;
+			sourceTree = "<group>";
+		};
+		79E5A5902D633907003811B7 /* SOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E5A5912D633907003811B7 /* SOSUITests.swift */,
+				79E5A5932D633907003811B7 /* SOSUITestsLaunchTests.swift */,
+			);
+			path = SOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E5A5722D633906003811B7 /* SOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E5A5972D633907003811B7 /* Build configuration list for PBXNativeTarget "SOS" */;
+			buildPhases = (
+				79E5A56F2D633906003811B7 /* Sources */,
+				79E5A5702D633906003811B7 /* Frameworks */,
+				79E5A5712D633906003811B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOS;
+			productName = SOS;
+			productReference = 79E5A5732D633906003811B7 /* SOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E5A5822D633907003811B7 /* SOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E5A59A2D633907003811B7 /* Build configuration list for PBXNativeTarget "SOSTests" */;
+			buildPhases = (
+				79E5A57F2D633907003811B7 /* Sources */,
+				79E5A5802D633907003811B7 /* Frameworks */,
+				79E5A5812D633907003811B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E5A5852D633907003811B7 /* PBXTargetDependency */,
+			);
+			name = SOSTests;
+			productName = SOSTests;
+			productReference = 79E5A5832D633907003811B7 /* SOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E5A58C2D633907003811B7 /* SOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E5A59D2D633907003811B7 /* Build configuration list for PBXNativeTarget "SOSUITests" */;
+			buildPhases = (
+				79E5A5892D633907003811B7 /* Sources */,
+				79E5A58A2D633907003811B7 /* Frameworks */,
+				79E5A58B2D633907003811B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E5A58F2D633907003811B7 /* PBXTargetDependency */,
+			);
+			name = SOSUITests;
+			productName = SOSUITests;
+			productReference = 79E5A58D2D633907003811B7 /* SOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E5A56B2D633905003811B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					79E5A5722D633906003811B7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					79E5A5822D633907003811B7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 79E5A5722D633906003811B7;
+					};
+					79E5A58C2D633907003811B7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 79E5A5722D633906003811B7;
+					};
+				};
+			};
+			buildConfigurationList = 79E5A56E2D633905003811B7 /* Build configuration list for PBXProject "SOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E5A56A2D633905003811B7;
+			productRefGroup = 79E5A5742D633906003811B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E5A5722D633906003811B7 /* SOS */,
+				79E5A5822D633907003811B7 /* SOSTests */,
+				79E5A58C2D633907003811B7 /* SOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E5A5712D633906003811B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799797342D6B8242006E662A /* CalculatorIcon.png in Resources */,
+				799797362D6B8242006E662A /* BrowserIcon.png in Resources */,
+				79E5A57E2D633907003811B7 /* Preview Assets.xcassets in Resources */,
+				799797102D69D5E9006E662A /* ringtone.mp3 in Resources */,
+				799797352D6B8242006E662A /* ClockIcon.png in Resources */,
+				79E5A57B2D633907003811B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5A5812D633907003811B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5A58B2D633907003811B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E5A56F2D633906003811B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799797142D6A4E2C006E662A /* SOSView.swift in Sources */,
+				79E5A5A32D633ABE003811B7 /* FakeCallView.swift in Sources */,
+				79474F562D670E63003D05EB /* WebView.swift in Sources */,
+				79E5A5792D633906003811B7 /* ContentView.swift in Sources */,
+				79E5A5A12D633A38003811B7 /* FakeCallManager.swift in Sources */,
+				79965CAE2D670B9D00E87822 /* AppDelegate.swift in Sources */,
+				79E5A5A72D633BCD003811B7 /* FlashSOSView.swift in Sources */,
+				79E5A5A92D633C57003811B7 /* DummyScreenView.swift in Sources */,
+				79965CAB2D63465800E87822 /* HomeView.swift in Sources */,
+				79E5A5A52D633ACF003811B7 /* FlashSOSManager.swift in Sources */,
+				799797122D6A4DDD006E662A /* BluetoothSOSManager.swift in Sources */,
+				79E5A5772D633906003811B7 /* SOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5A57F2D633907003811B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E5A5882D633907003811B7 /* SOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5A5892D633907003811B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E5A5942D633907003811B7 /* SOSUITestsLaunchTests.swift in Sources */,
+				79E5A5922D633907003811B7 /* SOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E5A5852D633907003811B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E5A5722D633906003811B7 /* SOS */;
+			targetProxy = 79E5A5842D633907003811B7 /* PBXContainerItemProxy */;
+		};
+		79E5A58F2D633907003811B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E5A5722D633906003811B7 /* SOS */;
+			targetProxy = 79E5A58E2D633907003811B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79E5A5952D633907003811B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E5A5962D633907003811B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E5A5982D633907003811B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SOS/Preview Content\"";
+				DEVELOPMENT_TEAM = H8G6965476;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOS/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app may use Bluetooth for silent emergency communication.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to control the flashlight for SOS signaling.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app may need continuous access to your location for emergency tracking.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app may access your location to send emergency alerts.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app uses motion detection for emergency SOS.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app does not require access to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.SOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E5A5992D633907003811B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SOS/Preview Content\"";
+				DEVELOPMENT_TEAM = H8G6965476;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOS/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app may use Bluetooth for silent emergency communication.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to control the flashlight for SOS signaling.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app may need continuous access to your location for emergency tracking.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app may access your location to send emergency alerts.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app uses motion detection for emergency SOS.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app does not require access to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.SOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79E5A59B2D633907003811B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DB98SY2YPB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.SOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOS";
+			};
+			name = Debug;
+		};
+		79E5A59C2D633907003811B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DB98SY2YPB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.SOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOS";
+			};
+			name = Release;
+		};
+		79E5A59E2D633907003811B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DB98SY2YPB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.SOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SOS;
+			};
+			name = Debug;
+		};
+		79E5A59F2D633907003811B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DB98SY2YPB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.SOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E5A56E2D633905003811B7 /* Build configuration list for PBXProject "SOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E5A5952D633907003811B7 /* Debug */,
+				79E5A5962D633907003811B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E5A5972D633907003811B7 /* Build configuration list for PBXNativeTarget "SOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E5A5982D633907003811B7 /* Debug */,
+				79E5A5992D633907003811B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E5A59A2D633907003811B7 /* Build configuration list for PBXNativeTarget "SOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E5A59B2D633907003811B7 /* Debug */,
+				79E5A59C2D633907003811B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E5A59D2D633907003811B7 /* Build configuration list for PBXNativeTarget "SOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E5A59E2D633907003811B7 /* Debug */,
+				79E5A59F2D633907003811B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E5A56B2D633905003811B7 /* Project object */;
+}
