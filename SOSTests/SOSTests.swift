@@ -2,7 +2,6 @@
 //  SOSTests.swift
 //  SOSTests
 //
-//  Created by 一居和毅 on 2025/02/17.
 //
 
 import XCTest
